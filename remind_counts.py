@@ -55,7 +55,7 @@ for customer in super_signature_d.keys():
             account = acc['account']
             count = acc['count']
             message['text'] += f"{account}: {str(count)}\r\n"
-            logger.info(f"{account}: {str(count)}\n")
+            logger.info(f"{account}: {str(count)}")
             remain_all += count
 
         message['text'] += "\r\n".join([
