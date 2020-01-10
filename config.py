@@ -19,6 +19,10 @@ super_signature = {
         "url": "https://ucsuper.le079.com/apple/getAllAppleAccounts",
         "error": ""
         },
+    "58yl": {
+        "url": "https://58ylsuper.le079.com/apple/getAllAppleAccounts",
+        "error": ""
+        },
     }
 
 apple_url = "https://api.appstoreconnect.apple.com/v1/apps"
