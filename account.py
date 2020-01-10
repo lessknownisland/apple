@@ -84,6 +84,7 @@ for customer in super_signature_d.keys():
 
             except Exception as e:
                 logger.error(f"获取苹果开发者 接口token 错误: {str(e)}")
+                super_signature_d[customer]['error'] += f"{acc['account']}: {str(e)}\n"
 
             else:
                 # 测试苹果开发者接口，判断账号能否正常使用
